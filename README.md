@@ -17,10 +17,26 @@ NGINX MPEG-TS Live Module.
     <tbody>
         <tr>
             <td>1.21.0</td>
+            <td>master</td>
+            <td><ul>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-ts-master</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-ts-master-alpine</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>1.21.0</td>
+            <td>fix-timeShiftBufferDepth-by-Wassup789</td>
+            <td><ul>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-ts-fix-timeShiftBufferDepth-by-Wassup789</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-ts-fix-timeShiftBufferDepth-by-Wassup789-alpine</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>1.21.0</td>
             <td>0.1.1</td>
             <td><ul>
-                <li>docker pull soulteary/prebuilt-nginx-modules:ts-1.21.0</li>
-                <li>docker pull soulteary/prebuilt-nginx-modules:ts-1.21.0-alpine</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-ts-0.1.1</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-ts-0.1.1-alpine</li>
             </ul></td>
         </tr>
     </tbody>
