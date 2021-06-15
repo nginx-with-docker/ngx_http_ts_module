@@ -1,7 +1,7 @@
 ARG NGINX_VERSION=1.21.0
 FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION} AS Builder
 
-ARG MODULE_CHECKSUM=c205461e0c6f1a5a9542a79e938f0668c828aa67
+ARG MODULE_CHECKSUM=631d1a20712724f7c6c1363c04068a0242d7d954
 ARG MODULE_VERSION=fix-timeShiftBufferDepth-by-Wassup789
 ARG MODULE_NAME=nginx-ts-module-src
 ARG MODULE_SOURCE=https://github.com/nginx-with-docker/nginx-ts-module-src
